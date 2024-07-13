@@ -29,8 +29,6 @@ const ListViewPage = () => {
       <div className="post-list">
         {posts.map(post => (
           <div key={post.id} className="post-card">
-             <h1>{post.userId}</h1>
-             <p>{post.id}</p>
             <h3>{post.title}</h3>
             <p>{post.body.substring(0, 100)}...</p>
             <Link to={`/detail/${post.id}`} className="details-link">

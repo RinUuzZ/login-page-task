@@ -8,8 +8,8 @@ const LoginPage = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     // Perform login logic here (e.g., authentication)
-    // If login is successful, navigate to the Detail View Page
-    navigate('/detail/1'); // Assuming you want to navigate to the detail view of item with ID 1
+    // If login is successful, navigate to the List View Page
+    navigate('/list');
   };
 
   return (
